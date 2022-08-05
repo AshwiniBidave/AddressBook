@@ -18,6 +18,7 @@ namespace Addressbook
             Address addr = new Address(name, address);
             //Address result = find(name);
 
+            object result = null;
             if (result == null)
             {
                 addresses.Add(addr);
