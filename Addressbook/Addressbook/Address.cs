@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace Addressbook
+{
+    class Address
+    {
+        public string name;
+        public string address;
+
+        public Address(string name, string address)
+        {
+            this.name = name;
+            this.address = address;
+        }
+
+    }
+}
